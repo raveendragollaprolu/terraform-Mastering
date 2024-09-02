@@ -1,4 +1,4 @@
-# Modules
+# Modules:
 
 The advantage of using Terraform modules in your infrastructure as code (IaC) projects lies in improved organization, reusability, and maintainability. Here are the key benefits:
 
