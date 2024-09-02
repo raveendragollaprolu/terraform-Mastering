@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 variable "ami" {
-  description = "value"
+  description = "value of ami"
 }
 
 variable "instance_type" {
