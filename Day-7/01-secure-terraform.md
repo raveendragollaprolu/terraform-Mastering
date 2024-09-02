@@ -1,20 +1,20 @@
-# Ways to secure Terraform
+# Ways to secure Terraform:
 
 There are a few ways to manage sensitive information in Terraform files. Here are some of the most common methods:
 
-## Use the sensitive attribute
+## Use the sensitive attribute:
 
 - Terraform provides a sensitive attribute that can be used to mark variables and outputs as sensitive. When a variable or output is marked as sensitive, Terraform will not print its value in the console output or in the state file.
 
-## Secret management system
+## Secret management system:
 
 - Store sensitive data in a secret management system. A secret management system is a dedicated system for storing sensitive data, such as passwords, API keys, and SSH keys. Terraform can be configured to read secrets from a secret management system, such as HashiCorp Vault or AWS Secrets Manager.
 
-## Remote Backend
+## Remote Backend:
 
 - Encrypt sensitive data. The Terraform state file can be encrypted to protect sensitive data. This can be done by using a secure remote backend, such as Terraform Cloud or S3.
 
-## Environment Variables
+## Environment Variables:
 
 - Use environment variables. Sensitive data can also be stored in environment variables. Terraform can read environment variables when it is run.
 
