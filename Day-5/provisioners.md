@@ -6,6 +6,7 @@ Certainly, let's delve deeper into the `file`, `remote-exec`, and `local-exec` p
 
    Example:
 
+
    ```hcl
    resource "aws_instance" "example" {
      ami           = "ami-0c55b159cbfafe1f0"
